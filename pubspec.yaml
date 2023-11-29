@@ -1,0 +1,33 @@
+name: SunAlarm
+description: sunrise sunset alarm clock
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.14.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lat_lng_to_timezone: ^0.2.0
+  sunrise_sunset_calc: ^3.0.0
+  timezone_utc_offset: ^1.1.0
+
+  flutter_alarm_clock:
+    path: ../
+  time_picker_spinner_pop_up: ^1.2.1
+  geolocator: ^10.1.0
+  go_router: ^12.1.1
+  google_maps_flutter: ^2.5.0
+  geocoding: ^2.1.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  uses-material-design: true
