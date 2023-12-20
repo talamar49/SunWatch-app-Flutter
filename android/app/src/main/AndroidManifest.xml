@@ -7,8 +7,6 @@
         android:label="זמן להתעורר"
         android:icon="@mipmap/ic_launcher">
 
-       <meta-data android:name="com.google.android.geo.API_KEY"
-           android:value="AIzaSyB9D9_wVnIBzasatrjYG689xv9unROgzSk"/>
         <activity
             android:screenOrientation="portrait"
             android:name=".MainActivity"
